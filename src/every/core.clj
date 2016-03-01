@@ -1,4 +1,5 @@
-(ns every.core)
+(ns every.core
+  (:gen-class))
 
 (def umilli 1)
 (def usecond (* 1000 umilli))
