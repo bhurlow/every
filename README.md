@@ -16,7 +16,12 @@ add to your project.clj dependencies
 (defn do-somthing-awesome []
 	(println "oh yes"))
 
+;; you may specify
+;; ms, s, m, h, d
 (every "10s" do-somthing-awesome)
+
+;; you may also specify a limit of total calls
+(every "10s" do-somthing-awesome 20)
 ```
 
 ## License
